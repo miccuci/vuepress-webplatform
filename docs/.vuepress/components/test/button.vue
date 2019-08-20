@@ -6,7 +6,7 @@
 export default {
   methods: {
     onClick() {
-      this.$message.success('测试点击')
+      this.$message.success('I am editting in dev branch')
     }
   },
 }
