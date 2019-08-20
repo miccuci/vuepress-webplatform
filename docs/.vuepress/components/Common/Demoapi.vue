@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="api-wrap">
+    <h3>{{title}}</h3>
     <el-table
       fit
       border
@@ -66,3 +67,31 @@
     }
   }
 </script>
+
+<style lang="scss" scoped>
+.api-wrap {
+  + .api-wrap {
+    margin: 40px 0;
+  }
+  &:first-child {
+    margin-top: 80px;
+  }
+  &:last-child {
+    margin-bottom: 80px;
+  }
+}
+.el-table {
+  table {
+    border-collapse: collapse;
+    margin: 0;
+  }
+
+  th, td, th.is-leaf {
+    border: none;
+  }
+
+  .el-table__body, .el-table__footer, .el-table__header{
+    border-collapse: collapse;
+  }
+}
+</style>

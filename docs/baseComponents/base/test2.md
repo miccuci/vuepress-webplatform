@@ -2,5 +2,5 @@
 ---
 
 <div>
-  <Common-Demoapi/>
+  <Common-Demoapi />
 </div>

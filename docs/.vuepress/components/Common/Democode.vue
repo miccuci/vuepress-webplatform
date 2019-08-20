@@ -36,3 +36,58 @@ export default {
 </script>
 
 
+<style lang="scss" scoped>
+.code {
+  .code--title {
+    h2 {
+      padding: 0;
+      margin: 0;
+      border-bottom: none;
+      font-size: 18px;
+    }
+
+    small {
+      font-size: 14px;
+      display: inline-block;
+      margin: 10px 0;
+      color: #5e6d82;
+    }
+  }
+  .code--demo {
+    border: 1px solid #ebebeb;
+    border-bottom: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 0 rgba(232, 237, 250, 0.6),
+      0 1px 2px 0 rgba(232, 237, 250, 0.5);
+    .code-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      padding: 4%;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  .code--button {
+    background: #fafbfc;
+    color: #409eff;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 8px 0 rgba(232, 237, 250, 0.6),
+      0 2px 4px 0 rgba(232, 237, 250, 0.5);
+    &:hover {
+      font-size: 17px;
+    }
+  }
+
+  & + .code {
+    margin-top: 40px;
+  }
+
+  &:not(:first-child) {
+    margin-top: 40px;
+  }
+}
+</style>
