@@ -69,17 +69,6 @@
 </script>
 
 <style lang="scss" scoped>
-.api-wrap {
-  + .api-wrap {
-    margin: 40px 0;
-  }
-  &:first-child {
-    margin-top: 80px;
-  }
-  &:last-child {
-    margin-bottom: 80px;
-  }
-}
 .el-table {
   table {
     border-collapse: collapse;

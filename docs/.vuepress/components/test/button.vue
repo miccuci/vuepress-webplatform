@@ -1,5 +1,5 @@
 <template>
-  <el-button @click="onClick" size="mini">test button</el-button>      
+  <el-button @click="onClick">test button</el-button>      
 </template>
 
 <script>

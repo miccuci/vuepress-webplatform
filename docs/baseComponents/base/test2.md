@@ -1,6 +1,6 @@
 # 测试案例2
 ---
 
-<div>
-  <Common-Demoapi />
-</div>
+<test-button></test-button>
+
+<test-ButtonApi></test-ButtonApi>
