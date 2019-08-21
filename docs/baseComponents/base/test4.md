@@ -7,9 +7,6 @@ Pagination component is mainly based on Element 'el-pagination' for the secondar
 
 ## Basic Usage
 
-<div>
-  <test-button></test-button>
-</div>
 
 ```html
 <template>

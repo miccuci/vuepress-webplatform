@@ -5,7 +5,6 @@
   <Common-Democode title="基本用法" description="基本按钮用法">
     <div class="demo-button">
       <div>
-        <test-button></test-button>
         <el-button type="primary">主要按钮</el-button>
         <el-button type="success">成功按钮</el-button>
         <el-button type="info">信息按钮</el-button>

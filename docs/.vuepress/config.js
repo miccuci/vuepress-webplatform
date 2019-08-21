@@ -11,9 +11,13 @@ module.exports = {
       { text: '组件文档', link: '/baseComponents/' },
       { text: '知识库', link: '/knowledge/' },
       {
-        text: 'github',
+        text: '参考链接',
         // 这里是下拉列表展现形式。
         items: [
+          { text: 'vue官网文档', link: 'https://cn.vuejs.org/v2/guide/' },
+          { text: 'elementui官网', link: 'https://element.eleme.cn/#/zh-CN/component/layout' },
+          { text: 'awesome-vue', link: 'https://github.com/vuejs/awesome-vue' },
+          { text: 'vue-element-admin', link: 'https://panjiachen.github.io/vue-element-admin-site/zh/' },
           { text: 'vue-admin-template', link: 'https://github.com/miccuci/vue-admin-template' }
         ]
       }
