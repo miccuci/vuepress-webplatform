@@ -11,7 +11,7 @@
         width="120">
       </el-table-column>
       <el-table-column
-        prop="describe"
+        prop="description"
         label="说明" >
       </el-table-column>
       <el-table-column
@@ -34,12 +34,12 @@
       :data="apiData"
       style="width: 100%">
       <el-table-column
-        prop="params"
+        prop="name"
         label="事件名称"
         width="120">
       </el-table-column>
       <el-table-column
-        prop="describe"
+        prop="description"
         label="说明">
       </el-table-column>
       <el-table-column

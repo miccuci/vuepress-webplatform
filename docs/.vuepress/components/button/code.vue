@@ -5,7 +5,7 @@
         <button-index />
       </div>
       <highlight-code slot="codeText" lang="html">
-        {{ code }}
+        {{ codeStr }}
       </highlight-code>
     </Common-Democode>
     <Common-Demoapi :api-data="apiData"/>
@@ -14,35 +14,17 @@
 </template>
 
 <script>
-const codeStr = `
-<template>
-  <el-button @click="onClick">test button</el-button>      
-</template>
-
-export default {
-  methods: {
-    onClick() {
-      this.$message.success('I am a test button')
-    }
-  },
-}`
+import config from './config.js'
 
 export default {
   data() {
+    const { title, description, codeStr, apiData, eventData } = config
     return {
-      code: codeStr,
-      apiData: [{
-        params: 'type',
-        describe: '按钮类型',
-        type: 'String',
-        optionValue: 'default | primary | danger',
-        defaultValue: 'default',
-      }],
-      eventData: [{
-        params: 'click',
-        describe: '点击事件,(event) => {}',
-        cbparams: 'event'
-      }]
+      title: title,
+      description: description,
+      codeStr: codeStr,
+      apiData: apiData,
+      eventData: eventData
     }
   },
 }

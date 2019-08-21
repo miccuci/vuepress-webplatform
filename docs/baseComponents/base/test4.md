@@ -1,4 +1,4 @@
-# 测试案例4
+# 测试分页组件
 ---
 
 ## Pagination <Badge text="v3.9.2+"/>

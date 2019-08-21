@@ -1,9 +1,10 @@
 # winning-cs-web-platform
-Build a platform component library by VuePress
+
+卫宁健康长沙研发中心前端团队文档及公共组件平台
 
 1. 安装模块
 ```
-npm install or yarn
+npm install or yarn install
 ```
 
 2. 开发启动
@@ -15,5 +16,9 @@ npm run docs:dev
 ``` 
 npm run docs:build
 ```
+4. 浏览器预览
+open http://localhost:2333
 
-[github rep](https://github.com/miccuci)
+> Generator by [vuepress](https://github.com/vuejs/vuepress)
+
+[github rep](https://github.com/miccuci/vuepress-webplatform)
