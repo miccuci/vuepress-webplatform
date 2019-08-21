@@ -2,24 +2,22 @@
   <div class="api-wrap">
     <h3>{{title}}</h3>
     <el-table
-      fit
-      border
       v-if="type === 'attr'"
       :data="apiData"
       style="width: 100%">
       <el-table-column
         prop="params"
         label="参数"
-        width="140">
-      </el-table-column>
-      <el-table-column
-        prop="describe"
-        label="说明"
         width="120">
       </el-table-column>
       <el-table-column
+        prop="describe"
+        label="说明" >
+      </el-table-column>
+      <el-table-column
         prop="type"
-        label="类型">
+        label="类型"
+        width="120">
       </el-table-column>
       <el-table-column
         prop="optionValue"
@@ -27,7 +25,8 @@
       </el-table-column>
       <el-table-column
         prop="defaultValue"
-        label="默认值">
+        label="默认值"
+        width="120">
       </el-table-column>
     </el-table>
     <el-table
@@ -37,7 +36,7 @@
       <el-table-column
         prop="params"
         label="事件名称"
-        width="140">
+        width="120">
       </el-table-column>
       <el-table-column
         prop="describe"
@@ -45,7 +44,8 @@
       </el-table-column>
       <el-table-column
         prop="cbparams"
-        label="回调参数">
+        label="回调参数"
+        width="120">
       </el-table-column>
     </el-table>
   </div>
@@ -68,19 +68,22 @@
   }
 </script>
 
-<style lang="scss" scoped>
-.el-table {
-  table {
-    border-collapse: collapse;
-    margin: 0;
-  }
+<style lang="scss">
+.api-wrap{
+  margin-top: 48px;
+  .el-table {
+    table {
+      border-collapse: collapse;
+      margin: 0;
+    }
 
-  th, td, th.is-leaf {
-    border: none;
-  }
+    th, td, th.is-leaf {
+      border: none;
+    }
 
-  .el-table__body, .el-table__footer, .el-table__header{
-    border-collapse: collapse;
+    .el-table__body, .el-table__footer, .el-table__header{
+      border-collapse: collapse;
+    }
   }
 }
 </style>

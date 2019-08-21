@@ -1,8 +1,8 @@
 <template>
   <div class="code">
     <div class="code--title">
-      <h2>{{title}}</h2>
-      <small>{{description}}</small>
+      <h3>{{title}}</h3>
+      <p>{{description}}</p>
     </div>
     <div class="code--demo">
       <div class="code-content">
